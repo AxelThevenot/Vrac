@@ -1,0 +1,478 @@
+1606340723684	geckodriver	INFO	Listening on 127.0.0.1:51219
+1606340724355	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIFYCl2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606340741131	Marionette	INFO	Listening on port 38347
+1606340741551	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606340767879	geckodriver	INFO	Listening on 127.0.0.1:35067
+1606340767882	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek6J3TQ"
+1606340768317	Marionette	INFO	Stopped listening on port 38347
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606340776076	Marionette	INFO	Listening on port 46183
+1606340776132	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606341282409	Marionette	INFO	Stopped listening on port 46183
+1606341899268	geckodriver	INFO	Listening on 127.0.0.1:35619
+1606341899277	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWAthME"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606341908070	Marionette	INFO	Listening on port 33245
+1606341908351	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606342020088	Marionette	INFO	Stopped listening on port 33245
+1606342023075	geckodriver	INFO	Listening on 127.0.0.1:55655
+1606342023079	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelUfFzw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606342030574	Marionette	INFO	Listening on port 41341
+1606342030635	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/stylesheets.js, line 392: TypeError: this.ownerNode is null
+JavaScript error: resource://devtools/server/actors/stylesheets.js, line 392: TypeError: this.ownerNode is null
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+JavaScript error: https://www.logic-immo.com/, line 2063: ReferenceError: Criteo is not defined
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+1606345195010	geckodriver	INFO	Listening on 127.0.0.1:38129
+1606345196073	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOBfpSb"
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet490, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:280:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:109:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:324:13\nonPacket@resource://devtools/client/devtools-client.js:492:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 101))
+console.warn: "fetching media rules failed" (new Error("Connection closed, pending request to server0.conn0.child3/stylesheet490, type getMediaRules failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:280:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nonStyleSheetAdded@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:17:37\nmodule.exports/<@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:109:28\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nonPacket@resource://devtools/shared/protocol/Front.js:324:13\nonPacket@resource://devtools/client/devtools-client.js:492:13\nsend/<@resource://devtools/shared/transport/local-transport.js:68:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 101))
+console.warn: "fetching stylesheets failed" (new Error("Connection closed, pending request to server0.conn0.child3/styleSheetsActor4, type getStyleSheets failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:280:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nmodule.exports@resource://devtools/shared/resources/legacy-listeners/stylesheet.js:97:48\n", "resource://devtools/shared/protocol/Front.js", 101))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1606345207333	Marionette	INFO	Stopped listening on port 41341
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606345214472	Marionette	INFO	Listening on port 40129
+1606345214779	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 668"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:668:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2105:69
+addAllSources@resource://devtools/server/actors/thread.js:1500:14
+onSources@resource://devtools/server/actors/thread.js:1506:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 668, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 668: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+1606345672661	Marionette	INFO	Stopped listening on port 40129
+1606345675737	geckodriver	INFO	Listening on 127.0.0.1:57127
+1606345675740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileajfoWp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606345680004	Marionette	INFO	Listening on port 46493
+1606345680069	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606347697929	Marionette	INFO	Stopped listening on port 46493
+1606495344235	geckodriver	INFO	Listening on 127.0.0.1:39585
+1606495344922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletjeKUX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606495353969	Marionette	INFO	Listening on port 40289
+1606495354278	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.logic-immo.com/, line 2063: ReferenceError: Criteo is not defined
+JavaScript error: https://radar.cedexis.com/releases/1593429750/impact.js, line 2: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1606496883076	Marionette	INFO	Stopped listening on port 40289
+1606496884520	geckodriver	INFO	Listening on 127.0.0.1:41627
+1606496884523	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9D069O"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606496888077	Marionette	INFO	Listening on port 32929
+1606496889579	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 668"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:668:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2105:69
+addAllSources@resource://devtools/server/actors/thread.js:1500:14
+onSources@resource://devtools/server/actors/thread.js:1506:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 668, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 668: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2252))
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2252))
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+Unflushed glGetGraphicsResetStatus: 0x92bb
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1606510453271&ver1=2.2.3&qid=034393f5534393f5734363&rnd=aeo8u0yzrk2f&cid=647 line 1 > eval, line 281: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL
+* Exhausted GL driver options.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2252))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2252))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2252))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2252))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.logic-immo.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.logic-immo.com"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1606513823330	geckodriver	INFO	Listening on 127.0.0.1:55335
+1606513823337	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilele69Rd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606513826695	Marionette	INFO	Listening on port 38489
+1606513826770	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.logic-immo.com/, line 2063: ReferenceError: Criteo is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1606514001724	geckodriver	INFO	Listening on 127.0.0.1:59439
+1606514001743	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWLuOIG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606514005240	Marionette	INFO	Listening on port 38059
+1606514005281	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.logic-immo.com/, line 2063: ReferenceError: Criteo is not defined
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript warning: https://www.logic-immo.com/asset/vendor/map-component/dist/mapCmm.js?tag=21.8.1, line 1: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:933:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:933:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function threw an exception: TypeError: null has no properties
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:933:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:708:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("null has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+Handler function _httpResponseExaminer threw an exception: TypeError: null has no properties
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:130:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:454:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 130, column: 9
+console.error: (new TypeError("null has no properties", "resource://devtools/server/actors/network-monitor/network-observer.js", 130))
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1606520013074	Marionette	INFO	Stopped listening on port 38059
+1606520025235	geckodriver	INFO	Listening on 127.0.0.1:52703
+1606520025242	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKH38ah"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606520028650	Marionette	INFO	Listening on port 41745
+1606520028770	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.logic-immo.com/, line 2063: ReferenceError: Criteo is not defined
+1606568843448	geckodriver	INFO	Listening on 127.0.0.1:60957
+1606568844392	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejlXmJi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606568850065	Marionette	INFO	Listening on port 35447
+1606568850158	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.mediarithmics.com/tag/1/tag.min.js, line 3: TypeError: this.triggerCallsIfPossible is not a function
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: "getApplied@resource://devtools/server/actors/styles.js:566:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:989:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error writing request: getGrids"
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:989:5)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: https://radar.cedexis.com/1/10252/radar.js, line 15: uncaught exception: [object XMLHttpRequest]
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.warn: "Resource  of root-node was not found."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: "getApplied@resource://devtools/server/actors/styles.js:566:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn1.child3/pagestyle26 (resource://devtools/server/actors/styles.js:566:5)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn1.child3/pagestyle26 (resource://devtools/server/actors/styles.js:566:5)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:989:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn1.child3/pagestyle26 (resource://devtools/server/actors/styles.js:989:5)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2252))
+JavaScript error: resource://devtools/client/inspector/markup/views/element-editor.js, line 508: TypeError: this.node.walkerFront is null
+console.warn: "Resource  of root-node was not found."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2252))
+JavaScript error: resource://devtools/client/inspector/markup/views/element-editor.js, line 508: TypeError: this.node.walkerFront is null
+JavaScript error: resource://devtools/client/fronts/node.js, line 418: TypeError: this.parentFront is null
+console.warn: "Resource  of root-node was not found."
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2252))
+JavaScript error: resource://devtools/client/inspector/markup/views/element-editor.js, line 508: TypeError: this.node.walkerFront is null
+1606575677213	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1606575681484	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: https://www.logic-immo.com/vente-immobilier-arcueil-94110,l-hay-les-roses-94240,cachan-94230,1053_2,17982_2,5316_2/options/groupprptypesids=1,2,6,7,12,15/pricemax=500000/areamin=10, line 6063: ReferenceError: Criteo is not defined
+JavaScript error: https://www.logic-immo.com/vente-immobilier-arcueil-94110,l-hay-les-roses-94240,cachan-94230,1053_2,17982_2,5316_2/options/groupprptypesids=1,2,6,7,12,15/pricemax=500000/areamin=10, line 7008: ReferenceError: Criteo is not defined
+JavaScript error: https://www.logic-immo.com/vente-immobilier-arcueil-94110,l-hay-les-roses-94240,cachan-94230,1053_2,17982_2,5316_2/options/groupprptypesids=1,2,6,7,12,15/pricemax=300000/areamin=10, line 6217: ReferenceError: Criteo is not defined
+JavaScript error: https://www.logic-immo.com/vente-immobilier-arcueil-94110,l-hay-les-roses-94240,cachan-94230,1053_2,17982_2,5316_2/options/groupprptypesids=1,2,6,7,12,15/pricemax=300000/areamin=10, line 7159: ReferenceError: Criteo is not defined
+JavaScript error: https://www.logic-immo.com/asset/vendor/sas-module/dist.es5.js?tag=21.8.1, line 242: TypeError: sas.cmd is undefined
+JavaScript error: https://www.logic-immo.com/vente-immobilier-arcueil-94110,l-hay-les-roses-94240,cachan-94230,1053_2,17982_2,5316_2/options/groupprptypesids=1,2,6,7,12,15/page=3/pricemax=500000/areamin=10, line 5952: ReferenceError: Criteo is not defined
+JavaScript error: https://www.logic-immo.com/vente-immobilier-arcueil-94110,l-hay-les-roses-94240,cachan-94230,1053_2,17982_2,5316_2/options/groupprptypesids=1,2,6,7,12,15/page=3/pricemax=500000/areamin=10, line 6898: ReferenceError: Criteo is not defined
+1606577551500	geckodriver	INFO	Listening on 127.0.0.1:48725
+1606577551509	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNYWfEX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606577555127	Marionette	INFO	Listening on port 36059
+1606577555243	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.logic-immo.com/, line 2063: ReferenceError: Criteo is not defined
+1606577703865	Marionette	INFO	Stopped listening on port 36059
+1606577718984	geckodriver	INFO	Listening on 127.0.0.1:37953
+1606577718990	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMIBAXn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606577722385	Marionette	INFO	Listening on port 40957
+1606577722433	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.logic-immo.com/, line 2063: ReferenceError: Criteo is not defined
+JavaScript error: https://ec-ns.sascdn.com/diff/rtb/handler/st.min.html?%7b%22bid%22%3a%22303816788628713499%22%2c%22adomain%22%3a%22caocao.fr%22%2c%22page%22%3a%22876463%22%2c%22format%22%3a%2258034%22%2c%22crid%22%3a%223563774%22%2c%22dsp%22%3a%22109%22%2c%22buyer%22%3a%2213688%22%2c%22cid%22%3a%22%22%2c%22adid%22%3a%22%22%2c%22hash%22%3a%22-3138553836229045021%22%7d, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://www.logic-immo.com/asset/vendor/sas-module/dist.es5.js?tag=21.8.1, line 242: TypeError: sas.cmd is undefined
+JavaScript error: https://www.logic-immo.com/vente-immobilier-val-de-marne-94,119_1/options/groupprptypesids=1,2,6,7,12,15/page=303/pricemax=2000000, line 5574: ReferenceError: Criteo is not defined
+JavaScript error: https://www.logic-immo.com/vente-immobilier-val-de-marne-94,119_1/options/groupprptypesids=1,2,6,7,12,15/page=303/pricemax=2000000, line 6156: ReferenceError: Criteo is not defined
+JavaScript error: https://www.logic-immo.com/asset/vendor/sas-module/dist.es5.js?tag=21.8.1, line 242: TypeError: sas.cmd is undefined
+JavaScript error: https://www.logic-immo.com/vente-immobilier-val-de-marne-94,119_1/options/groupprptypesids=1,2,6,7,12,15/page=303/pricemax=2000000, line 5569: ReferenceError: Criteo is not defined
+JavaScript error: https://www.logic-immo.com/vente-immobilier-val-de-marne-94,119_1/options/groupprptypesids=1,2,6,7,12,15/page=303/pricemax=2000000, line 6151: ReferenceError: Criteo is not defined
+Unflushed glGetGraphicsResetStatus: 0x92bb
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1606595369956&ver1=2.2.3&qid=034393f5534393f5734363&rnd=pywo2w8272wk&cid=647 line 1 > eval, line 281: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL
+* Exhausted GL driver options.
+Unflushed glGetGraphicsResetStatus: 0x92bb
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1606599176380&ver1=2.2.3&qid=034393f5534393f5734363&rnd=md3aq5o00tbr&cid=647 line 1 > eval, line 281: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL
+* Exhausted GL driver options.
+Unflushed glGetGraphicsResetStatus: 0x92bb
+JavaScript warning: https://pixel.yabidos.com/flimpobj.js?cb=1606599266469&ver1=2.2.3&qid=034393f5534393f5734363&rnd=8tqcaw67eskd&cid=647 line 1 > eval, line 281: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL
+* Exhausted GL driver options.
+1606684959119	geckodriver	INFO	Listening on 127.0.0.1:43113
+1606684960032	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile66VFPa"
+1606734018123	geckodriver	INFO	Listening on 127.0.0.1:51415
+1606734019051	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePv5ov2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606734024577	Marionette	INFO	Listening on port 45799
+1606734024728	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.logic-immo.com/, line 2063: ReferenceError: Criteo is not defined
+1606734109420	Marionette	INFO	Stopped listening on port 45799
+1606734131250	geckodriver	INFO	Listening on 127.0.0.1:37459
+1606734131256	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileF4J2OU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606734134811	Marionette	INFO	Listening on port 35887
+1606734134884	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606734164074	Marionette	INFO	Stopped listening on port 35887
+1606734182810	geckodriver	INFO	Listening on 127.0.0.1:37735
+1606734182865	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehhGXpy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606734186167	Marionette	INFO	Listening on port 37477
+1606734186194	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.logic-immo.com/, line 2063: ReferenceError: Criteo is not defined
